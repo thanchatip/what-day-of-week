@@ -1,4 +1,11 @@
+import { definePreset, palette } from "@primevue/themes";
 import Lara from "@primevue/themes/aura";
+
+const MyPreset = definePreset(Lara, {
+  semantic: {
+    primary: palette("#8b5cf6"),
+  },
+});
 
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
@@ -8,7 +15,7 @@ export default defineNuxtConfig({
     autoImport: true,
     options: {
       theme: {
-        preset: Lara,
+        preset: MyPreset,
         options: {
           darkModeSelector: ".app-dark",
           cssLayer: false,
