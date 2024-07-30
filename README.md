@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# What Day of week is this day web app
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Web application using nuxt 3 to solve the question “What weekday is today?”
 
 ## Setup
 
@@ -25,18 +25,19 @@ Start the development server on http://localhost:3000
 npm run dev
 ```
 
-## Production
+## Screenshot
 
-Build the application for production:
+- Home Page
 
-```bash
-npm run build
-```
+![image](https://github.com/user-attachments/assets/d7f7b009-b5cb-4c7c-bb4b-14eadc2bc9dc)
 
-Locally preview production build:
+- When Enter Date
 
-```bash
-npm run preview
-```
+![image](https://github.com/user-attachments/assets/748fb1de-7f80-4a6f-9566-da421a409214)
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- Result
+
+![image](https://github.com/user-attachments/assets/2c0be12b-d81a-4086-9648-b20b51e08414)
+
+
+
